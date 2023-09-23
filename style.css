@@ -232,7 +232,7 @@ span {
     }
 }
 
-@media screen and (min-width: 991px) and (max-width: 1199px) {
+@media screen and (min-width: 991px) and (max-width: 1200px) {
     .form {
         width: 350px;
         height: 80%;
@@ -263,7 +263,67 @@ span {
     }
 }
 
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 1400px) and (max-width: 1824px) {
+    .form {
+        width: 800px;
+        height: 70%;
+        padding: 20px;
+        top: 30px;
+        left: 360px;
+    }
+
+    .sign-up {
+        bottom: 80px;
+        left: 540px;
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+    span {
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+    .message {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    #signupForm {
+        gap: 12px;
+    }
+
+    .form h3 {
+        height: 25px;
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .form h1 {
+        height: 35px;
+        font-size: 25px;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+
+    #signupForm label {
+        height: 20px;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    #signupForm input {
+        height: 30px;
+        font-size: 20px;
+    }
+
+    button {
+        height: 50px;
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 1824px) {
     .form {
         width: 1200px;
         height: 80%;
