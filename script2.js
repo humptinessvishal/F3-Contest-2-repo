@@ -1,7 +1,6 @@
 const logoutButton = document.getElementById("btn2");
 
-document.addEventListener("DOMContentLoaded", (event) => {
-    event.preventDefault();
+document.addEventListener("DOMContentLoaded", () => {
     const user = JSON.parse(localStorage.getItem("user"));
     const username = document.getElementById("username2");
     const email = document.getElementById("email2");
